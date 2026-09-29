@@ -1,4 +1,4 @@
-# Adwaita
+# Adwaita Modern
 
 A simple [libadwaita](https://gnome.pages.gitlab.gnome.org/libadwaita/)-inspired theme for Obsidian, bringing the GNOME look to your vault.
 
@@ -6,7 +6,7 @@ A simple [libadwaita](https://gnome.pages.gitlab.gnome.org/libadwaita/)-inspired
 
 ## About
 
-Adwaita recolors Obsidian using the libadwaita 1.6+ default palette. It only overrides Obsidian's own CSS variables, with no custom styling or settings, so it stays fast, lightweight, and should keep working as Obsidian updates.
+Adwaita Modern recolors Obsidian using the libadwaita 1.6+ default palette. It only overrides Obsidian's own CSS variables, with no custom styling or settings, so it stays fast, lightweight, and should keep working as Obsidian updates.
 
 Inspired by [Adwaita for Steam](https://github.com/tkashkin/Adwaita-for-Steam) by tkashkin.
 
@@ -21,8 +21,6 @@ Inspired by [Adwaita for Steam](https://github.com/tkashkin/Adwaita-for-Steam) b
 ## Fonts
 
 The theme uses [Adwaita Sans and Adwaita Mono](https://gitlab.gnome.org/GNOME/adwaita-fonts), the GNOME 48+ defaults. They aren't bundled. If they aren't installed, it falls back to Cantarell, Inter, or your system font.
-
-## Installation
 
 ## Credits
 
