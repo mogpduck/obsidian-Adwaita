@@ -2,11 +2,11 @@
 
 A simple [libadwaita](https://gnome.pages.gitlab.gnome.org/libadwaita/)-inspired theme for Obsidian, bringing the GNOME look to your vault.
 
-<img src="images/dark.png">
+<img src="theme_image_big.png">
 
 ## About
 
-Adwaita recolors Obsidian using the libadwaita 1.6+ default palette. It only overrides Obsidian's own CSS variables, with no custom styling or settings, so it stays fast and should keep working as Obsidian updates.
+Adwaita recolors Obsidian using the libadwaita 1.6+ default palette. It only overrides Obsidian's own CSS variables, with no custom styling or settings, so it stays fast, lightweight, and should keep working as Obsidian updates.
 
 Inspired by [Adwaita for Steam](https://github.com/tkashkin/Adwaita-for-Steam) by tkashkin.
 
@@ -31,7 +31,7 @@ The theme uses [Adwaita Sans and Adwaita Mono](https://gitlab.gnome.org/GNOME/ad
 - Colors from the [libadwaita](https://gitlab.gnome.org/GNOME/libadwaita) default stylesheet and the [GNOME HIG palette](https://developer.gnome.org/hig/reference/palette.html)
 - Inspired by [Adwaita for Steam](https://github.com/tkashkin/Adwaita-for-Steam)
 
-This project isn't affiliated with GNOME or Obsidian.
+This project isn't affiliated with GNOME. 
 
 ## License
 
