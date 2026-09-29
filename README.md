@@ -10,8 +10,6 @@ Adwaita recolors Obsidian using the libadwaita 1.6+ default palette. It only ove
 
 Inspired by [Adwaita for Steam](https://github.com/tkashkin/Adwaita-for-Steam) by tkashkin.
 
-<img src="images/light.png">
-
 ## Features
 
 - Light and dark modes using the libadwaita view, window, sidebar and dialog colors
