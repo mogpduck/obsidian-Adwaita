@@ -6,7 +6,7 @@
   Colors follow the libadwaita 1.6+ defaults:
   https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/css-variables.html
 
-  Only Obsidian's own CSS variables are overridden. The accent
+  Mostly Obsidian's own CSS variables are overridden. The accent
   defaults to Adwaita blue and can be changed in
   Settings → Appearance → Accent color.
   *===============================================================*/
@@ -17,17 +17,26 @@ body {
   --accent-s: 76%;
   --accent-l: 55%;
 
-  --font-interface-theme: "Adwaita Sans", Cantarell, Inter, system-ui, sans-serif;
-  --font-text-theme: "Adwaita Sans", Cantarell, Inter, system-ui, sans-serif;
+  --font-interface-theme: "Adwaita Sans", "Adwaita Sans Text", Cantarell, Inter, system-ui, sans-serif;
+  --font-text-theme: "Adwaita Sans", "Adwaita Sans Text", Cantarell, Inter, system-ui, sans-serif;
   --font-monospace-theme: "Adwaita Mono", "Source Code Pro", monospace;
 
   --input-radius: 6px;
   --button-radius: 6px;
   --radius-l: 12px;
 
-  --nav-item-background-active: color-mix(in srgb, var(--color-accent) 15%, transparent);
+  --nav-item-background-active: color-mix(in srgb, var(--color-accent) 50%, transparent);
   --icon-color-active: var(--color-accent);
   --icon-color-focused: var(--color-accent);
+
+  /* Accent focus rings */
+  --background-modifier-border-focus: color-mix(in srgb, var(--color-accent) 50%, transparent);
+}
+
+/* Settings sidebar and suggestion lists: match the file explorer's selected item */
+body:not(.is-phone) .vertical-tab-nav-item.is-active,
+.suggestion-item.is-selected {
+  background-color: var(--nav-item-background-active);
 }
 
 .theme-light {
@@ -47,6 +56,14 @@ body {
 
   --modal-background: #fafafb;  /* dialog_bg */
   --menu-background: #ffffff;   /* popover_bg */
+
+  /* Filled entries, no outline */
+  --background-modifier-form-field: rgba(0, 0, 6, 0.05);
+  --input-border-width: 0;
+
+  /* Flat buttons, no drop shadows */
+  --input-shadow: none;
+  --input-shadow-hover: none;
 
   --color-red-rgb: 192, 28, 40;
   --color-red: #c01c28;
@@ -87,6 +104,10 @@ body {
   /* Filled entries, no outline */
   --background-modifier-form-field: rgba(255, 255, 255, 0.1);
   --input-border-width: 0;
+
+  /* Flat buttons, no drop shadows */
+  --input-shadow: none;
+  --input-shadow-hover: none;
 
   --color-red-rgb: 246, 97, 81;
   --color-red: #f66151;
